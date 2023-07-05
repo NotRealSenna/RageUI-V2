@@ -10,10 +10,14 @@ sRageUI_Config = {
 
 }
 # sMenuAffichage
+{
 TestMenu  = RageUI.CreateMenu("Titre Menu", sRageUI_Config.PasTouche, nil, nil, "sMenuAffichage", sRageUI_Config.ColorMenu)
 TestMenu2 = RageUI.CreateSubMenu(TestMenu, "Titre Menu", sRageUI_Config.PasTouche, nil, nil, "sMenuAffichage", sRageUI_Config.ColorMenu)
+}
 
 # sMenuAdd-On's
+{
 RageUI.Line() # Exemple : ------------------------
 RageUI.Separator("Text")
 Visual.Subtitle("Text") # Affichage en bas au milleu de l'écran.
+}
