@@ -16,13 +16,11 @@ function sRageUIExemple()
                 RageUI.Button("Exemple Button", nil, {RightLabel = "→"}, true, {
                     onSelected = function()
                         print("Print effectué !")
-                
                     end})
 
                 RageUI.Button("Exemple Button 2", nil, {RightBadge = RageUI.BadgeStyle.Star}, true, {
                     onSelected = function()
                         print("Print effectué !")
-                    
                     end})
 
                 RageUI.Button("Exemple Button 3 (Redirect Second Menu)", nil, {RightBadge = RageUI.BadgeStyle.Star}, true, {}, sRageUIExemple2)
