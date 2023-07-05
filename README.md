@@ -17,4 +17,3 @@ TestMenu2 = RageUI.CreateSubMenu(TestMenu, "Titre Menu", sRageUI_Config.PasTouch
 RageUI.Line() # Exemple : ------------------------
 RageUI.Separator("Text")
 Visual.Subtitle("Text") # Affichage en bas au milleu de l'écran.
- 
