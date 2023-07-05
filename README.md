@@ -9,8 +9,8 @@
     PasTouche = " ",
 }
 # sMenuAffichage
--- TestMenu  = RageUI.CreateMenu("Titre Menu", sRageUI_Config.PasTouche, nil, nil, "sMenuAffichage", sRageUI_Config.ColorMenu)
--- TestMenu2 = RageUI.CreateSubMenu(TestMenu, "Titre Menu", sRageUI_Config.PasTouche, nil, nil, "sMenuAffichage", sRageUI_Config.ColorMenu)
+TestMenu  = RageUI.CreateMenu("Titre Menu", sRageUI_Config.PasTouche, nil, nil, "sMenuAffichage", sRageUI_Config.ColorMenu)
+TestMenu2 = RageUI.CreateSubMenu(TestMenu, "Titre Menu", sRageUI_Config.PasTouche, nil, nil, "sMenuAffichage", sRageUI_Config.ColorMenu)
 
 
 # sMenuAdd-On's
